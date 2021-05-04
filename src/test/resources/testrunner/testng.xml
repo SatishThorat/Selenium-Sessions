@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+    <suite name="Test automtion regression suite" verbose="3">
+    
+      <test name="Orange HRM test">  
+        <classes>  
+          <class name="testNGSessionByNaveen2.OrangeHRMTest"/>  
+        </classes>  
+      </test> <!-- Test -->  
+      
+      <test name="Open Cart test">  
+        <classes>  
+          <class name="testNGSessionByNaveen2.DemoOpenCartTest"/>  
+         </classes>  
+      </test> <!-- Test -->  
+      
+      <test name="Amazon test">  
+        <classes>  
+          <class name="testNGSessionByNaveen2.AmazonTest"/>  
+        </classes>  
+      </test> <!-- Test -->  
+      
+    </suite> <!-- Suite -->  
